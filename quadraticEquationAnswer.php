@@ -5,7 +5,7 @@
   $c = $_REQUEST["c"];
   $d = $b*$b-4*$a*$c;
 
-  echo "a = $a<br>b = $b<br>c = $c<br><br>d = $d<br><br>";
+  echo "a = $a<br>b = $b<br>c = $c<br><br>{$a}x^2 + {$b}x + $c = 0<br>d = $d<br><br>";
 
   if($d < 0){
     echo "NO SOLUTIONS";
